@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+"""Project3 | Julian Rosa
+   routes for logging in and routes for a user to enter a super hero alter ego
+   html using jinja to use values from enterego form
+   end point for rick morty data to grab and post data"""
 # An object of Flask class is our WSGI application
 from flask import Flask
 from flask import redirect
