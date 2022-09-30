@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+   <body>
+       <header>
+            <h1>You have made it! Congragulations {{ name }}!</h1>
+       </header>
+       <section> 
+           <h2>What is your Super Hero alter ego?</h2>
+           <form action = "/enterego" method = "POST">
+               <input type = "text" name="alterSuperName" placeholder = "Alter Ego Super Hero Name"/>
+               <input type = "text" name="alterRealName" placeholder = " Alter Ego Real Name"/>
+               <input type = "text" name="power" placeholder="Super Power"/>
+               <input type = "text" name="secondaryPower" placeholder="Secondary Power"/>
+               <input type = "text" name="gadget" placeholder="Gadget"/>
+               <input type = "text" name="transportation" placeholder="Transportation"/>
+               <input type = "submit" value = 'enterego'/>
+            </form>
+   </body>
+</html>
+
